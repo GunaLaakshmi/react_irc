@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    /* Reset default margin and padding */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Basic styling */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #e6d1b5;
+      line-height: 1.6;
+      margin: 0;
+    }
+
+    header {
+      background-color:#070707;
+      color: #d36ef1;
+      padding: 20px 0;
+    }
+
+    nav ul {
+      list-style: none;
+      text-align: center;
+    }
+
+    nav ul li {
+      display: inline;
+      margin: 0 10px;
+    }
+
+    section {
+      padding: 40px 0;
+      text-align: center;
+    }
+
+    section h2 {
+      margin-bottom: 20px;
+      color: white;
+    }
+
+    .project {
+      background-color: #080808;
+      color: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgb(234, 231, 231);
+    }
+
+    footer {
+      background-color: black;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    /* Hero section */
+    #hero {
+      background-image: url('your-background-image.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: black;
+    }
+
+    .hero-content {
+      text-align: center;
+    }
+
+    .hero-content h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+
+    /* Media query for responsiveness */
+    @media (max-width: 768px) {
+      .hero-content h1 {
+        font-size: 2.5em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <div class="hero-content">
+      <h1>Welcome to My Portfolio</h1>
+      <p>Explore my work and get in touch!</p>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="content">
+      <h2>About Me</h2>
+      <p>I am UG student who is completing BE computer Science Engineering Specilize Artificial intelligence 
+        and machine learning in Sri Krishna college of technology ,coimbatore.I am a full-stack web developer 
+        with a background in design. I specialize in HTML, CSS, JavaScript, React, Node.js.
+        My experience includes building responsive websites and creating web applications. 
+        Feel free to browse my portfolio to get a better understanding of my skills and projects.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="content">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>MEDLIFE-Online pharmacy</h3>
+        <p>My project is centered around an online pharmacy that specializes in
+             providing doctors with online consultations.<br> You will be assigned 
+             appointments close to you.The service is available around-the-clock. </p>
+      </div>
+      <!-- Add more projects as needed -->
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="content">
+      <h2>Contact Me</h2>
+      <p>Email: gunalaakshmi@yahoo.com</p>
+      <p>Phone: +91 944xx xxxxx</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 My Portfolio</p>
+  </footer>
+
+</body>
+</html>
